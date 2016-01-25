@@ -33,9 +33,22 @@ describe('template strings', function(){
     expect(string).to.equal("the date is: "+date);
   });
 
-  it('can execute expressions', function(){
-  
+  it('can evaluate expressions', function(){
+    var a = 1;
+    var b = 2 
+    var string = `the answer is ${a+b}`;
+    
+    expect(string).to.equal("the answer is 3");
   });
+
+   it('can handle multiline strings', function(){
+      
+      var string = `hello
+ world`;
+
+       expect(string).to.equal("hello\n world")
+   });
+  
 
 });
 
