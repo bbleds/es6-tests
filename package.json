@@ -1,0 +1,26 @@
+{
+  "name": "es6-tests",
+  "version": "1.0.0",
+  "description": "testing ES6 features",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbleds/es6-tests.git"
+  },
+  "author": "Ben Bledsoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbleds/es6-tests/issues"
+  },
+  "homepage": "https://github.com/bbleds/es6-tests#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
