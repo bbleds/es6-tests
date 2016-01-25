@@ -52,3 +52,19 @@ describe('template strings', function(){
 
 });
 
+
+describe('arrow functions', function(){
+  
+  it('is shorter to write', function(){
+    var functionNorm = function(){
+      return 5*10;
+    } 
+
+    var functionArrow = () => 5*10;
+
+    //expect(functionNorm()).to.equal(50);
+    expect(functionArrow()).to.equal(50);
+
+  });
+
+});
