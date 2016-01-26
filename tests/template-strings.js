@@ -67,4 +67,8 @@ describe('arrow functions', function(){
 
   });
 
+  it('changes binds "this" to the parent function', function(){
+      
+  });
+
 });
