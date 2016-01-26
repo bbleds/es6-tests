@@ -107,10 +107,46 @@ describe('destructuring!! ', function(){
     expect(sound).to.equal('woof');
 
   });
+});
+
+describe('Let and Const ', function(){
+
+    it(' (let) should have block scope', function(){
+      let x = 0;
+
+        if(true){
+            let x = 2;
+        }
+
+       //should equal zero
+      expect(x).to.equal(0);
+
+    });
 
 
+    it(' (const) should have block scope', function(){
+      const my_const = "ben"
+
+        if(true){
+            const my_const = "bob"
+        }
+
+        //should not throw error
+        expect(my_const).to.equal("ben");
+
+
+    });
 
 });
+
+
+
+
+
+
+
+
+
 
 
 
